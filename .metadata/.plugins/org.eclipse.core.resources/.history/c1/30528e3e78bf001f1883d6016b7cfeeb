@@ -1,0 +1,20 @@
+package thiskey;
+
+public class thisDemo {
+
+	int a=8;
+	
+	public void getdata() {
+		
+		int a=10;
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		thisDemo tD=new thisDemo();
+		tD.getdata();
+		
+	}
+
+}

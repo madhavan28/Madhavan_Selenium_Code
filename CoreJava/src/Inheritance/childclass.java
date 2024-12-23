@@ -1,0 +1,20 @@
+package Inheritance;
+
+public class childclass extends parentclass {
+
+	public void paint() {
+		
+		System.out.println(colour);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		childclass cd= new childclass();
+		cd.paint();
+		cd.breaks();
+		cd.audiosystem();
+		cd.gear();
+	}
+
+}

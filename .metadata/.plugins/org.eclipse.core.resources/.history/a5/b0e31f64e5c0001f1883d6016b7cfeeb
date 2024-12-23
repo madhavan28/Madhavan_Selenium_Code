@@ -1,0 +1,45 @@
+package VariableStatic;
+
+public class Varclass {
+
+	String name;
+	String address;
+	static String city;
+	static int i;
+	static 
+	{
+		
+		 city="Bangalore";
+		 i=0;
+		
+	}
+	public Varclass(String name, String address) {
+		
+	this.name=name;
+	this.address=address;
+	i++;
+	System.out.println(i);
+	
+	}
+	
+	public static void getcity() {
+	
+		System.out.println(city);
+	}
+	
+	public void getAdress() {
+	
+	System.out.println(address);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Varclass obj=new Varclass("Bob","Indiranagar");
+		Varclass obj1=new Varclass("Ram","Halasuru");
+		obj.getAdress();
+		obj1.getAdress();
+		Varclass.getcity();
+	}
+
+}

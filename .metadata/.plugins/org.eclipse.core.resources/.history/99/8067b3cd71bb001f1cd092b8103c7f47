@@ -1,0 +1,22 @@
+package functionoverloading;
+
+public class overloading {
+	
+	public void getdata(int a) {
+		
+	}
+	
+	public void getdata(String b) {
+		
+	}
+	
+	public void getdata(int c,int d) {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

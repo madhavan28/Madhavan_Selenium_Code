@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testpackage.Listners"/>
+  </listeners>
+  <test thread-count="10" parallel="tests" name="Carloan(failed)">
+    <parameter name="Creds" value="mpartha@dummymail.com"/>
+    <parameter name="CarloanURL" value="www.ptc.com"/>
+    <classes>
+      <class name="testpackage.Carloan">
+        <methods>
+          <include name="CarAPI"/>
+        </methods>
+      </class> <!-- testpackage.Carloan -->
+    </classes>
+  </test> <!-- Carloan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

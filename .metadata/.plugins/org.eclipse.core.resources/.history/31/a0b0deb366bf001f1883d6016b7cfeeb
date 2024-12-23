@@ -1,0 +1,18 @@
+package superkey;
+
+public class superkeyword {
+
+	String name ="Madhavan";
+	
+	public void parentgetdata() {
+		
+		System.out.println("I am in the parent class");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

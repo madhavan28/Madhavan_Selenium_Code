@@ -1,0 +1,18 @@
+package superkey;
+
+public class superkeychild extends superkeyword {
+
+	String name="Parthasarathi";
+	
+	public void getdata() {
+		
+		System.out.println(name);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		superkeychild skd=new superkeychild();
+		skd.getdata();
+	}
+
+}

@@ -1,0 +1,16 @@
+package Accessmodifier;
+
+public class Demo1AM {
+
+	private int i=5;
+	 private void getdata() {
+		
+		System.out.println("Hello");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

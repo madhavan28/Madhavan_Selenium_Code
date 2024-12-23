@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T18:43:23 IST" name="Suite" finished-at="2024-05-27T18:43:23 IST" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T18:43:23 IST" name="Test" finished-at="2024-05-27T18:43:23 IST" duration-ms="54">
+      <class name="testpackage.Homeloan">
+        <test-method signature="LoginAPI()[pri:0, instance:testpackage.Homeloan@4d5b6aac]" started-at="2024-05-27T18:43:23 IST" name="LoginAPI" finished-at="2024-05-27T18:43:23 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+        <test-method signature="homemobileapp()[pri:0, instance:testpackage.Homeloan@4d5b6aac]" started-at="2024-05-27T18:43:23 IST" name="homemobileapp" finished-at="2024-05-27T18:43:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homemobileapp -->
+        <test-method signature="homewebapp()[pri:0, instance:testpackage.Homeloan@4d5b6aac]" started-at="2024-05-27T18:43:23 IST" name="homewebapp" finished-at="2024-05-27T18:43:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homewebapp -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testpackage.Homeloan@4d5b6aac]" started-at="2024-05-27T18:43:23 IST" name="aftertest" finished-at="2024-05-27T18:43:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testpackage.Homeloan -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

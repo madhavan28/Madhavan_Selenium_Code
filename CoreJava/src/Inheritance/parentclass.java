@@ -1,0 +1,26 @@
+package Inheritance;
+
+public class parentclass {
+	
+	String colour="yellow";
+	
+	public void gear() {
+		System.out.println("Gear system is implemented");
+	}
+	
+	public void breaks() {
+		System.out.println("Breaks system is implemented");
+	}
+	
+	public void audiosystem() {
+		
+		System.out.println("this is infotaintment");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			
+	}
+
+}

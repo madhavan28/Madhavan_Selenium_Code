@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PersonalandEducationDepartment" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="testpackage.ListernersPractise"></listener>
+	</listeners>
+<parameter name="URL" value="www.irctc.co.in"/>
+<parameter name="Creds" value="m9952927894"></parameter>	
+<test name="Perosonal Loan">
+	<classes>
+		<class name="testpackage.PersonalLoan"/>
+	</classes>
+</test>
+
+<test name="Education loan" parallel="tests" thread-count="10">
+	<classes>
+	<class name="testpackage.EducationLoan">
+		</class>
+</classes></test>
+</suite> <!-- Suite -->

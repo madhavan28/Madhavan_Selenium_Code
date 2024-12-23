@@ -1,0 +1,10 @@
+package Accessmodifier;
+
+public class Demo2AM {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
